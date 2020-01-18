@@ -14747,16 +14747,6 @@
             "properties": {
                 "name": "Louisiana"
             }
-        },{
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [-92.322, 30.581]
-            },
-        
-            "properties": {
-                "name": "Louisiana"
-            }
         },
         
         {
