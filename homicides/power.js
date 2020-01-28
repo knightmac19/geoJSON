@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    
 
     $(".generate").on("click", function() {
         pushArr();
@@ -116,9 +115,9 @@ $(document).ready(function() {
         // Washington
             // "type":"Feature","geometry":{"type":"Point","coordinates":[-120.161,47.2]},"properties":{"name":"Washington"}
         // West Virginia
-            "type":"Feature","geometry":{"type":"Point","coordinates":[-80.422,38.359]},"properties":{"name":"West Virginia"}
+            // "type":"Feature","geometry":{"type":"Point","coordinates":[-80.422,38.359]},"properties":{"name":"West Virginia"}
         // Wisconsin
-            // "type":"Feature","geometry":{"type":"Point","coordinates":[-90.074867,44.2616]},"properties":{"name":"Wisconsin"}
+            "type":"Feature","geometry":{"type":"Point","coordinates":[-90.074867,44.2616]},"properties":{"name":"Wisconsin"}
         // Wyoming
             // "type":"Feature","geometry":{"type":"Point","coordinates":[-107.4018,42.5818]},"properties":{"name":"Wyoming"}
 
@@ -129,66 +128,12 @@ $(document).ready(function() {
     
     
     var pushArr = function() {
-        for (var i = 0; i < 534; i++) {
+        for (var i = 0; i < 411; i++) {
             var string = JSON.stringify(stateCrime);
             array.push(string);
         }
     }
     
-    
-
-
-
-
-    // var ALcount = 0;
-    // var AKcount = 0;
-    // var ARcount = 0;
-    // var AKcount = 0;
-    // var CAcount = 0;
-    // var COcount = 0;
-    // var CTcount = 0;
-    // var DEcount = 0;
-    // var FLcount = 0;
-    // var GAcount = 0;
-    // var IDcount = 0;
-    // var ILcount = 0;
-    // var INcount = 0;
-    // var IAcount = 0;
-    // var KAcount = 0;
-    // var KYcount = 0;
-    // var LAcount = 0;
-    // var MEcount = 0;
-    // var MDcount = 0;
-    // var MAcount = 0;
-    // var MIcount = 0;
-    // var MNcount = 0;
-    // var MIcount = 0;
-    // var MOcount = 0;
-    // var MTcount = 0;
-    // var NEcount = 0;
-    // var NVcount = 0;
-    // var NHcount = 0;
-    // var NJcount = 0;
-    // var NMcount = 0;
-    // var NYcount = 0;
-    // var NCcount = 0;
-    // var NDcount = 0;
-    // var OHcount = 0;
-    // var OKcount = 0;
-    // var ORcount = 0;
-    // var PAcount = 0;
-    // var RIcount = 0;
-    // var SCcount = 0;
-    // var SDcount = 0;
-    // var TNcount = 0;
-    // var TXcount = 0;
-    // var UTcount = 0;
-    // var VTcount = 0;
-    // var VAcount = 0;
-    // var WAcount = 0;
-    // var WVcount = 0;
-    // var WIcount = 0;
-    // var WYcount = 0;
 
 
     // $("#add-count").on("click", function() {
