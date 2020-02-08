@@ -19,6 +19,9 @@ $(document).ready(function() {
     });
 
     
+
+ 
+    
     var stateCrime = {
         // Alabama
             // "type":"Feature","geometry":{"type":"Point","coordinates":[-86.380,32.505]},"properties":{"name":"Alabama"}
@@ -117,7 +120,7 @@ $(document).ready(function() {
         // West Virginia
             // "type":"Feature","geometry":{"type":"Point","coordinates":[-80.422,38.359]},"properties":{"name":"West Virginia"}
         // Wisconsin
-            "type":"Feature","geometry":{"type":"Point","coordinates":[-90.074867,44.2616]},"properties":{"name":"Wisconsin"}
+            // "type":"Feature","geometry":{"type":"Point","coordinates":[-90.074867,44.2616]},"properties":{"name":"Wisconsin"}
         // Wyoming
             // "type":"Feature","geometry":{"type":"Point","coordinates":[-107.4018,42.5818]},"properties":{"name":"Wyoming"}
 
